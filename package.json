@@ -1,0 +1,20 @@
+{
+  "name": "scrapper",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "scrape": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/json2csv": "^5.0.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "puppeteer": "^23.7.1"
+  }
+}
